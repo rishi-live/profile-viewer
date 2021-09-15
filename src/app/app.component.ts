@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
       },
       (err) => {
         this.toastr.error("Please try after sometime......");
-        // this.toastr.error(err.status, "Please try after sometime......");
+        // this.toastr.error(err.status, "Please try after sometime......");// error msg with status code
       }
     );
   }
