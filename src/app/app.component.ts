@@ -40,6 +40,7 @@ export class AppComponent implements OnInit {
       this.getUser();
       console.log(`Request for new user ${this.i}`);
     }
+    
     // console.log(new_user, "get from child");
   }
 
